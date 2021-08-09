@@ -17,11 +17,22 @@ Este App é uma reprodução da tela principal do Front-End da NetFlix.
 ![TelaDashboard](images/netflixclonemobile.PNG)
 
 
+## Links acessados para o desenvolvimento
 
-### Requisitos
+* http://jsonviewer.stack.hu/ : para formatação do json.
+* https://www.themoviedb.org/settings/api : API provedora das informações utilizadas no projeto (é necessário criar uma conta para utilizar a API).
+* https://developers.themoviedb.org/3/getting-started/introduction : Guia de utilização da API de titulos.
+* Exemplo de retorno de dados da API : https://api.themoviedb.org/3/movie/550?api_key=4ef83096dd3b9c027e97e5daa220a8b8&language=pt-BR
+* https://material-ui.com/pt/components/material-icons/ : Icones usado no carrocel dos titulos.
+
+
+## Requisitos
 
 * Node ultima versão.
 * Npm ultima versão.
+
+
+## Comandos
 
 
 #### `npm start`
@@ -30,7 +41,7 @@ Para rodar o app no modo de desenvolvimento.\
 Abrir [http://localhost:3000](http://localhost:3000) no navegador.
 
 
-##### `npm run build`
+#### `npm run build`
 
 Para compilar o app para produção na pasta `build`.\
 
